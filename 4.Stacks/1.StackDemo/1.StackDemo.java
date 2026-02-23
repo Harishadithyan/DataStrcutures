@@ -1,3 +1,4 @@
+//  Follows the LIFO
 import java.util.*;
 
 class StackDemo {
@@ -11,6 +12,7 @@ class StackDemo {
         stack.push(44);
         stack.push(54);
 
+        System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
